@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --white-color: #ffffff;
+  --primary-bg-color: #f5f5f5;
+  --secondery-bg-color: #f5f4fa;
+  --main-color: #757575;
+  --primary-title-color: #212121;
+  --style-color: #2196f3;
+}
+
+body {
+  background: var(--white-color);
+  color: var(--main-color);
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* --------------header--------------- */
+
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--style-color);
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--main-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--style-color);
+}
+
+.header-email-tel {
+  color: inherit;
+}
+
+.header-email-tel:hover,
+.header-email-tel:focus {
+  color: var(--style-color);
+  font-weight: 500;
+}
+/* --------------header--------------- */
+
+/* --------------hero--------------- */
+
+.hero-title {
+  color: var(--primary-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  background-color: var(--style-color);
+  color: var(--white-color);
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  cursor: pointer;
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* margin: 0 auto; */
+}
+/* --------------hero--------------- */
+
+/* --------------activities--------------- */
+
+.activities-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+
+}
+
+/* --------------activities--------------- */
+
+/* --------------principles--------------- */
+
+.principles-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+
+}
+
+.principles-text {
+  color: var(--main-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+/* --------------principles--------------- */
+
+/* --------------team--------------- */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+
+.name{
+  font-weight: 500;
+  color: var(--primary-title-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* --------------team--------------- */
+
+/* -------------filter-------------- */
+
+.filter-btn {
+  color: var(--primary-title-color);
+  background-color: var(--secondery-bg-color);
+  padding: 6px 22px;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--style-color);
+  color: #ffffff;
+}
+
+/* --------------filter--------------- */
+
+/* ------------  portfolio  ------------ */
+
+.portfolio-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-title-color);
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/* ------------  portfolio  ------------ */
+
+/* -------------  Footer  ----------- */
+
+footer {
+  background-color: #2f303a;
+}
+
+.email-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.email-tel:hover,
+.email-tel:focus {
+  color: var(--style-color);
+}
+
+.adress {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
